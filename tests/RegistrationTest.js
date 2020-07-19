@@ -51,6 +51,7 @@ dataSet.forEach(data => {
      .click(homepage.MyAccountLink)
      .expect(customerpage.ordersLink.exists).ok()
      .click(customerpage.ordersLink)
-     .expect(customerpage.noOrdersLabel.exists).ok();    
+     .expect(customerpage.noOrdersLabel.exists).ok();  
+     
     });
 });
